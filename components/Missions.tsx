@@ -8,7 +8,7 @@ const Missions = () => {
   const [showDescription, setShowDescription] = useState({});
 
   // Function to toggle description visibility for a specific mission
-  const toggleDescription = (index) => {
+  const toggleDescription = (index:number) => {
     setShowDescription((prevState) => ({
       ...prevState,
       [index]: !prevState[index] // Toggle visibility
