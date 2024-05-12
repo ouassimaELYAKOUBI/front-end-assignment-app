@@ -5,6 +5,11 @@ import icon1 from "@/public/1.svg";
 import icon2 from "@/public/2.svg";
 import icon3 from "@/public/3.svg";
 import icon4 from "@/public/4.svg";
+import HexagonBorder from "@/public/hexagonBorder.svg";
+import HexagonShape1 from "@/public/HexagonShape1.svg";
+import HexagonShape2 from "@/public/HexagonShape2.svg";
+import arrow from "@/public/arrow.svg";
+
 export const NAV_LINKS = [
     { href: "/", key: 'creonPass', label: 'Creon Pass',available:''},
     { href: "/", key: 'token', label: 'Token',available:'soon'},
@@ -27,20 +32,37 @@ export const missions =[
         title: 'Profitability and Growth',
         description:'At Creon, we handpick cutting-edge AI projects and offer our community and token holders early access and investment opportunities. Our community actively contributes to the growth and profitability of these projects, creating a dynamic ecosystem of innovation and shared success.',
         icon:icon1,
+        border:HexagonBorder,
+        shape1:HexagonShape1,
+        shape2:HexagonShape2,
+        arrow:arrow
     },
     {
         title: 'Transparent & Fair Decentralized Earnings',
         description:'At Creon, we handpick cutting-edge AI projects and offer our community and token holders early access and investment opportunities. Our community actively contributes to the growth and profitability of these projects, creating a dynamic ecosystem of innovation and shared success.',
         icon:icon2,
+        border:HexagonBorder,
+        shape1:HexagonShape1,
+        shape2:HexagonShape2,
+        arrow:arrow
+
     },
     {
         title: 'Launching the future',
         description:'At Creon, we handpick cutting-edge AI projects and offer our community and token holders early access and investment opportunities. Our community actively contributes to the growth and profitability of these projects, creating a dynamic ecosystem of innovation and shared success.',
         icon:icon3,
+        border:HexagonBorder,
+        shape1:HexagonShape1,
+        shape2:HexagonShape2,
+        arrow:arrow
     },
     {
         title: 'Limitless Possibilities of AI & Crypto',
         description:'At Creon, we handpick cutting-edge AI projects and offer our community and token holders early access and investment opportunities. Our community actively contributes to the growth and profitability of these projects, creating a dynamic ecosystem of innovation and shared success.',
         icon:icon4,
+        border:HexagonBorder,
+        shape1:HexagonShape1,
+        shape2:HexagonShape2,
+        arrow:arrow
     }
 ]

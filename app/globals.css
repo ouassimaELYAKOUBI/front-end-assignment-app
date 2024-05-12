@@ -59,3 +59,29 @@ body {
 .flexBetween {
   @apply flex items-center justify-between;
 }
+.hex {
+  width: 95px; /* Adjusted width for larger size */
+  height: 95px; /* Adjusted height for better aspect ratio */
+  background: #13171D;
+  clip-path: polygon(50% 0, 93% 25%, 93% 75%, 50% 100%, 7% 76%, 7% 26%);
+  filter: url('#goo');
+
+}
+
+.hex .inner2 {
+  background-color: #2B2E34;
+  transform: scale(0.8); /* Adjusted scale factor for larger inner hexagon */
+  z-index: 2;
+  clip-path: inherit; /* Inherit clip-path from parent */
+}
+
+.hex .inner2:before,
+.hex .inner2:after {
+  /* No styles needed for inner hexagon with clip-path inheritance */
+}
+.icon:hover{
+  fill : white;
+}
+.description-container {
+  max-height: none; /* Allow maximum height when visible */
+}

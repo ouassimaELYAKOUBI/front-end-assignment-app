@@ -44,7 +44,7 @@ const NavBar = () => {
 
         </div>
         {open && (
-          <button className="rounded-lg border-2 px-8 py-2 hover:bg-[#3D8BFF] ml-3 md:hidden">Connect</button>
+          <button className="rounded-lg border-2 px-8 py-2 hover:bg-[#3D8BFF] ml-3 md:hidden relative">Connect</button>
         )}
         </div>
         <div className={`md:hidden absolute w-2/3 h-screen px-7  font-medium top-0 duration-300 py-8 ${open? 'right-0 ':'right-[-100%]'} 	`}>
