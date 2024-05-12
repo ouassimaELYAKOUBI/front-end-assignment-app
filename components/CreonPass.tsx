@@ -4,8 +4,8 @@ import React from 'react'
 const CreonPass = () => {
   return (
     <div className="h-max w-full relative ">
-      <div className='flex md:flex-row flex-col md:gap-x-16 gap-y-0 sm:items-center sm:justify-center'>
-      <div className="flex flex-col w-11/12 md:w-full md:ps-40 p-10 gap-y-6 md:gap-y-12 px-6 md:px-0 sm:items-center sm:justify-center">
+      <div className='flex md:flex-row flex-col md:gap-x-16 gap-y-0 '>
+      <div className="flex flex-col w-11/12 md:w-full md:ps-40 p-10 gap-y-6 md:gap-y-12 px-6 md:px-0 ">
         <p className="font-monument font-extrabold text-3xl md:text-5xl uppercase tracking-widest py-2 md:py-0 md:w-3/4">Creon pass nft</p>
         <div className='border-t border-[#13171D] drop-shadow-2xl  w-fit md:pt-8 pt-6 '>
           <div className="bg-black ">
