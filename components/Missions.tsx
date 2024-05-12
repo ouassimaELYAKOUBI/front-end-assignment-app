@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const Missions = () => {
   // State to track whether description is visible for each mission
-  const [showDescription, setShowDescription] = useState({});
+  const [showDescription, setShowDescription] = useState<Record<number, boolean>>({});
 
   // Function to toggle description visibility for a specific mission
   const toggleDescription = (index:number) => {
